@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "checkJs": true,
+        // "allowSyntheticDefaultImports": true,
+        "baseUrl": ".", //goc thu muc la thu muc chua file jsconfig.json
+        "paths": {
+            "*": [
+                "src/*" //moi import se duoc tham chieu den thu muc tu src
+            ]
+        }
+    }
+}
